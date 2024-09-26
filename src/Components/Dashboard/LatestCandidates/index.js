@@ -28,7 +28,7 @@ const LatestCandidates = ({ recentJobApplicants = [] }) => {
             });
 
             return (
-              <tr>
+              <tr key = {index}>
                 <td>
                   {index + 1} {applicant_firstName}
                   <br /> <span>{`${applicant_lastName}a@gmail.com`}</span>

@@ -3,7 +3,7 @@ import Navbar from "@/Components/Navbar";
 import Sidebar from "@/Components/Sidebar";
 import styles from "./styles.module.scss";
 import HeroSection from "./HeroSection";
-const index = () => {
+const Dashboard = () => {
   const [sidebarActive, setSidebarActive] = useState(false);
 
   return (
@@ -25,4 +25,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Dashboard;
